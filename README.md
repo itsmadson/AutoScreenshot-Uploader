@@ -14,19 +14,19 @@ A Python tool that automatically captures screenshots every 5 minutes and upload
 ## Requirements
 Install required Python packages:
 
-bashCopypip install pillow dropbox pywin32 psutil
+```pip install pillow dropbox pywin32 psutil```
 
 You'll need to set up a Dropbox API key:
+- Go to https://www.dropbox.com/developers
+- Create a new app
+- Choose "Scoped access"
+- Choose "Full Dropbox" access
+- Name your app
+- In the settings, find your app's OAuth2 access token
 
 ## How to use:
 To use this script:
-Replace YOUR_ACCESS_TOKEN_HERE with your Dropbox access token
-Run the script once manually to test it
-The script will automatically add itself to Windows startup
-For Dropbox access token:
-Go to https://www.dropbox.com/developers
-Create a new app
-Choose "Scoped access"
-Choose "Full Dropbox" access
-Name your app
-In the settings, find your app's OAuth2 access token
+- Replace YOUR_ACCESS_TOKEN_HERE with your Dropbox access token
+- Run the script once manually to test it
+- The script will automatically add itself to Windows startup
+
